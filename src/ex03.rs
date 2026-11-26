@@ -31,7 +31,7 @@ pub fn take_and_return(account: String) -> (String, usize) {
 /// Consume a vector of account names and return how many there were.
 pub fn consume_all(accounts: Vec<String>) -> usize {
     let mut length:usize = 0;
-    for i in accounts{
+    for _i in accounts{
         length += 1;
     }
     length
